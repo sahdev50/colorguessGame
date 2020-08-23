@@ -1,0 +1,82 @@
+body{
+    background-color: #333;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.square{
+    width:30%;
+    background-color: purple;
+    border-radius: 15%;
+    padding-bottom: 30%;
+    float: left;
+    margin:1.66%;
+    transition: background-color 0.6s;
+    transition: border-radius 0.35s;
+    -webkit-transition: background-color 0.6s;
+    -webkit-transition: border-radius 0.35s;
+    -moz-transition: background-color 0.6s;
+    -moz-transition: border-radius 0.35s;
+}
+
+.square:hover{
+    opacity: 0.9;
+    border-radius: 18%;
+}
+
+#container{
+    width: 600px;
+    margin:20px auto;
+}
+h1{
+    color:white;
+    background-color: steelblue;
+    text-align: center;
+    font-weight: normal;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding:20px 0;
+    margin:0;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+#message{
+    display: inline-block;
+    font-family: cursive;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color:#333;
+    width:20%;
+}
+
+button{
+    border: none;
+    outline: none;
+    background:none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:steelblue;
+    height:100%;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+}
+button:hover{
+    background-color: steelblue;
+    color:white;
+}
+#strip{
+    background-color: white;
+    text-align: center;
+    height:30px
+}
+
+.selected{
+    background-color: steelblue;
+    color:white;
+}
